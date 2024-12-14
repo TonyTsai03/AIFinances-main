@@ -1,0 +1,10 @@
+
+
+.customer-carousel .slick-dots li.slick-active button,.customer-carousel .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.customer-carousel .slick-dots li.slick-active,.customer-carousel .slick-dots li{
+    width: 10px;
+}

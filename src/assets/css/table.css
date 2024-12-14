@@ -1,0 +1,29 @@
+.customer-table{
+    border-radius: 0 !important;
+}
+
+.customer-table td,.customer-table table{
+    background-color: rgb(41,44,56);
+    color: white;
+}
+
+.customer-table tr th,.customer-table tr{
+    background-color: rgb(52,55,68) !important;
+    border: 0 !important;
+    color: rgb(178,180,185) !important;
+}
+
+.customer-table tr th:last-child{
+    border-radius: 0 5px 5px 0px !important;
+}
+
+.customer-table tr th:first-child{
+    border-radius: 5px 0 0 5px  !important;
+}
+
+.customer-table tr th::before{
+    width: 0 !important;
+}
+
+
+

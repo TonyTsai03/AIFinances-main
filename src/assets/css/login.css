@@ -1,0 +1,42 @@
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#container #left-base{
+    width: 60%;
+    background-color: rgb(41,44,56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 240px;
+}
+#container #right-base{
+    width: 40%;
+    background-color: rgb(51,55,69);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    background:none;
+    border: 1px solid rgb(147, 148, 150);
+    color: rgb(178,180,185);
+    margin-top: 24px;
+    width: 100%;
+    padding-left: 35px;
+    height: 40px;
+    border-radius: 5px;
+}
+a{
+    color: rgb(100,187,128);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fk-a{
+    color: rgb(100,187,128);
+    text-decoration: none;
+    cursor: pointer;
+}

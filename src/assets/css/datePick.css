@@ -1,0 +1,21 @@
+.customer-date-pick input,.customer-date-pick span,.customer-date-pick input::placeholder,.customer-date-pick .ant-picker-input{
+    margin-top: 0;
+    color: white !important;
+    background:rgb(75,80,96);
+}
+
+.customer-date-pick,.customer-date-pick:hover{
+    background:rgb(75,80,96) !important;
+    color: white !important;
+    border: 0;
+    padding: 10px 20px;
+}
+
+.customer-date-pick.bg-none,.customer-date-pick.bg-none:hover{
+    background:none;
+    border: 1px solid rgb(147, 148, 150);
+}
+
+.ant-picker-range-arrow{
+    display: none !important;
+}
